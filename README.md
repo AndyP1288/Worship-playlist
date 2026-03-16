@@ -24,7 +24,11 @@ npm install
 2. Enable **Email/Password** in Authentication.
 3. Create a Firestore database.
 4. Enable Firebase Storage.
-5. Update `src/firebase/firebaseConfig.js` if you want to use a different Firebase project.
+5. Copy `.env.example` to `.env` and fill in your Firebase values:
+
+```bash
+cp .env.example .env
+```
 
 ### Firestore collections
 
